@@ -1,0 +1,51 @@
+/* Author: Probal Mojumder */
+
+/* basic css */
+
+html {
+	height: 100%;
+}
+
+
+body {
+	background: url("annie-spratt-xTaOPMa6wAE-unsplash.jpg");
+	background-size: 100%;
+	font-family: 'Taviraj', serif;
+}
+
+h2 {
+	padding-top: 3px;
+}
+
+/* navbar css */
+
+#mainNavbar .nav-link {
+	color: ghostwhite;
+}
+
+#mainNavbar .nav-link:hover {
+	color: lime;
+}
+
+/* table css */
+
+th {
+	text-align: center;
+}
+
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+/* class css */
+
+.div-border {
+	border: 2px solid #c94728;
+	background: #faf6bd;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
