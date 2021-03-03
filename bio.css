@@ -36,8 +36,13 @@ th {
 table.table-bordered > thead > tr > th{
     border:1px solid black;
 }
+
 table.table-bordered > tbody > tr > td{
     border:1px solid black;
+}
+
+table.table-bordered-none > thead > tr > th{
+    border:0px;
 }
 
 /* class css */
@@ -47,5 +52,16 @@ table.table-bordered > tbody > tr > td{
 	background: #faf6bd;	
 	margin-top: 10px;
 	margin-bottom: 10px;
-
 }
+
+/* id css */
+#logo {
+    position: relative;
+}
+#logo img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
